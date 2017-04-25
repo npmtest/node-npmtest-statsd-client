@@ -1,6 +1,6 @@
 # npmtest-statsd-client
 
-#### test coverage for  [statsd-client (v0.2.4)](https://github.com/msiebuhr/node-statsd-client)  [![npm package](https://img.shields.io/npm/v/npmtest-statsd-client.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-statsd-client) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-statsd-client.svg)](https://travis-ci.org/npmtest/node-npmtest-statsd-client)
+#### basic test coverage for  [statsd-client (v0.2.4)](https://github.com/msiebuhr/node-statsd-client)  [![npm package](https://img.shields.io/npm/v/npmtest-statsd-client.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-statsd-client) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-statsd-client.svg)](https://travis-ci.org/npmtest/node-npmtest-statsd-client)
 
 #### Yet another client for Etsy's statsd
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-statsd-client/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-statsd-client/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-statsd-client/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-statsd-client/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-statsd-client/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-statsd-client/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-statsd-client/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-statsd-client/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-statsd-client/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-statsd-client/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-statsd-client/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-statsd-client/build/coverage.html/index.html)
 
@@ -81,7 +81,8 @@
     "scripts": {
         "test": "mocha -R spec; jshint lib/ test/"
     },
-    "version": "0.2.4"
+    "version": "0.2.4",
+    "bin": {}
 }
 ```
 
